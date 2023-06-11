@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AtifSayings:CircularImageView:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://D:/Ecommerce/caches/transforms-3/b380ea1dda84281efee85b9713d68b6b/transformed/jetified-CircularImageView-1.0.2/jars/classes.jar!/" />
+      <root url="file://D:/Ecommerce/caches/transforms-3/b380ea1dda84281efee85b9713d68b6b/transformed/jetified-CircularImageView-1.0.2/res" />
+      <root url="file://D:/Ecommerce/caches/transforms-3/b380ea1dda84281efee85b9713d68b6b/transformed/jetified-CircularImageView-1.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Ecommerce/caches/modules-2/files-2.1/com.github.AtifSayings/CircularImageView/1.0.2/cf45efee0b95413b9042291f4e973cdc2ba0d186/CircularImageView-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

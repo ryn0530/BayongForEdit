@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SeeDetailedResultActivity">
+
+    <!--toolbar-->
+    <RelativeLayout
+        android:id="@+id/RlRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Add Category Count"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/beveragesTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RlRl"
+        android:layout_marginTop="5dp"
+        android:text="Beverages"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/beautyTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="Beauty"
+        android:textSize="15sp"
+        android:layout_below="@id/beveragesTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/babyKidsTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baby Kids"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_below="@id/beautyTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/biscuitsTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="Biscuits"
+        android:textSize="15sp"
+        android:layout_below="@id/babyKidsTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/breakfastTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="Breakfast"
+        android:textSize="15sp"
+        android:layout_below="@id/biscuitsTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/cookingTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cooking"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_below="@id/breakfastTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/frozenTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beverages"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/cookingTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/fruitsTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beauty"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/frozenTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/petTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baby Kids"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/fruitsTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/pharmacyTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biscuits"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_below="@id/petTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/vegetableTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakfast"
+        android:textSize="15sp"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/pharmacyTv"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/othersTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cooking"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:layout_below="@id/vegetableTv"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/graphBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="See Graphical Presentation"
+        android:layout_below="@id/othersTv"
+        android:textColor="@color/colorBlack"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

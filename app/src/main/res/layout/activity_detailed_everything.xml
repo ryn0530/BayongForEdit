@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DetailedEverythingActivity">
+
+    <!--toolbar-->
+    <RelativeLayout
+        android:id="@+id/RlRl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rect01"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_back_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Add Category Count"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/categoryTitleEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RlRl"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_rect02"
+        android:drawablePadding="10dp"
+        android:hint="Title Category e.g. Beverages / See list below"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/itemsEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoryTitleEt"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_rect02"
+        android:drawablePadding="10dp"
+        android:hint="Items Ordered e.g. 20"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark" />
+    <EditText
+        android:id="@+id/dateOrderedEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemsEt"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/shape_rect02"
+        android:drawablePadding="10dp"
+        android:hint="Date e.g. mm/dd/yyyy = 11/01/2022"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateOrderedEt"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="List of Categories" />
+
+    <TextView
+        android:id="@+id/listOfCategs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categories"
+        android:text="Beverages \nBeauty and Personal Care\nBaby Kids\nBiscuits Snacks and Chocolates\nBreakfast and Dairy\nCooking Needs\nFrozen Foods\nFruits\nPet Needs\nPharmacy\nVegetables\nOthers" />
+
+
+    <Button
+        android:id="@+id/seeNowBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/listOfCategs"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="60dp"
+        android:text="Add or Update Category"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/seeGraphBtn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/seeNowBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="See Result"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

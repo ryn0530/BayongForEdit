@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "662961348630",
+    "firebase_url": "https://bayong-eb15f-default-rtdb.firebaseio.com",
+    "project_id": "bayong-eb15f",
+    "storage_bucket": "bayong-eb15f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662961348630:android:15eb8d69babd7cb644d537",
+        "android_client_info": {
+          "package_name": "com.example.bayong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662961348630-31of1v3av1l0750a8rl3e0vpi72ej6so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bayong",
+            "certificate_hash": "30721bd2b8d3948b0dd2f83baae4a1bd4d54245b"
+          }
+        },
+        {
+          "client_id": "662961348630-rntcp92dk0km0ev38r74712b33e94u4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiAsX2LjQ15W5KqWBTdlCvcb3N7aRV7GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662961348630-rntcp92dk0km0ev38r74712b33e94u4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
